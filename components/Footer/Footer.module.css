@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cinza);
+  height: 9.375rem;
+  margin-top: 2em;
+  border-top: 0.1875rem solid var(--cinzamaisescuro);
+  color: var(--branco);
+}
+
+.footer span {
+  font-weight: bold;
+}
