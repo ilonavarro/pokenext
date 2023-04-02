@@ -9,7 +9,10 @@ import { Suspense } from 'react'
 // }
 
 export const metadata = {
-  title: 'PokeNext 1.0',
+  title: {
+    default: 'PokeNext 1.0',
+    template: '%s | PokeNext 1.0'
+  },
   description: 'Pokedex created with Next 13 and React 18',
   icons: {
     icon: '/favicon.ico',
