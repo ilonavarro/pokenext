@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  width: 23%;
+  border-radius: 1em;
+  border: 0.125rem solid var(--vermelho);
+  box-shadow: 0.3125rem 0.3125rem 0.75rem rgba(0, 0, 0, 0.5);
+  background-color: var(--cinza);
+  color: var(--branco);
+}
+
+.card .id {
+  margin: 1em 0;
+  background-color: var(--vermelho);
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .title {
+  text-transform: capitalize;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+
+.card .btn {
+  text-decoration: none;
+  background-color: var(--branco);
+  color: var(--cinzaescuro);
+  padding: 0.7em 1.2em;
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.card .btn:hover {
+  background-color: var(--vermelho);
+  color: var(--branco);
+}

@@ -6,8 +6,12 @@
 
   /* variables */
   --branco: #fff;
+  --preto: #000;
   --cinza: #333;
+  ---cinzaclaro: #ccc;
+  --cinzaescuro: #222;
   --cinzamaisescuro: #111;
+  --vermelho: #e33d33;
 }
 .main-container {
   min-height: 70vh;
