@@ -2,6 +2,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { Suspense } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -35,14 +36,15 @@ export default function RootLayout({ children }) {
     // <html lang='en'>
     //   <body>{children}</body>
     // </html>
-    <html lang='en'>
+    <html lang='pt-br'>
       <body>
-        <Suspense fallback={<div>Loading</div>}>
+        <Suspense fallback={<div>Loading...</div>}>
           {/* The problem with hydration resolve with suspense  */}
           <Navbar />
           <main className='main-container'>{children}</main>
           <Footer />
         </Suspense>
+        <Analytics />
       </body>
     </html>
   )
