@@ -34,6 +34,7 @@ export default function About() {
         <Link
           href='https://www.youtube.com/watch?v=XHrbg2iYNCg&list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft'
           rel='nofollow'
+          target='_blank'
         >
           Matheus Battisti
         </Link>
