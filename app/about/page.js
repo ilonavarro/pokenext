@@ -21,9 +21,10 @@ export default function About() {
       </p>
       <p>
         Outros recursos que utilizei são as novas funcionalidades de SEO com exportação da
-        constante "metadata", os módulos "async" (async functions diretamente nos módulos)
-        e uso direto da fetch do novo Next diretamente no projeto, com "revalidate",
-        "cache" e suprimindo "getStaticProps" e "getStaticPaths".
+        constante <em>metadata</em>, os módulos <em>async</em> (async functions
+        diretamente nos módulos) e uso direto da fetch do novo Next diretamente no
+        projeto, com <em>revalidate</em>,<em>cache</em> e suprimindo{' '}
+        <em>getStaticProps</em> e <em>getStaticPaths</em>.
       </p>
       <p>
         Você encontra esse projeto no meu repositório no{' '}
